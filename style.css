@@ -1,0 +1,63 @@
+body{
+    background: pink;
+}
+.toparea{
+    padding:10px 0 10px 0;
+    text-align: center;
+    color:white;
+    background: green;
+}
+.logoarea{
+    background: #f5e888;
+    text-align: center;
+    padding: 30px 0 30px 0;
+}
+.logoarea img{
+    width:100px;
+    height:100px;
+}
+ .logoarea h1{
+    color:brown;
+ }
+ .Department{
+    background:linear-gradient(rgba(0, 0, 1, 0.158),rgba(0,0,0.7)), url( 'bg.jpg');
+   padding: 100px 0 100px 0;
+ }
+ .box{
+    width:100%;
+    margin-top:100px;
+   padding: 50px 50px;
+    background:white;
+    
+ }
+    .box img{
+        width:100%;
+         transition: all 2s;
+       border-radius: 100px;
+    }
+        .box:hover img{
+            transform: rotate(360deg);
+        }
+    .box h4{
+        text-align: center;
+        margin-top:10px;
+    }
+    footer{
+        background: #2c1e1e;
+        color:white;
+        padding: 50px 200px 50px 200px;
+    }
+        footer h3{
+            border-left: 6px solid white;
+            margin-bottom: 13px;
+        }
+        footer ul{
+            list-style: none;
+        }
+            footer ul li{
+                color:crimson;
+                transition: all 2s;
+            }
+            footer ul li:hover{
+                margin-left: 10px;
+            }
